@@ -52,6 +52,17 @@ class User implements UserInterface
     private $articles;
 
     /**
+     * @var ArrayCollection
+     *
+     * @ORM\ManyToMany(targetEntity="SoftUniBlogBundle\Entity\Role")
+     * @ORM\JoinTable(name="users_roles",
+     *     joinColumns={@ORM\JoinColumn(name="user_id", referencedColumnName="id")},
+     *     inverseJoinColumns={@ORM\JoinColumn(name="role_id", referencedColumnName="id")}
+     *      )
+     */
+    private $roles;
+
+    /**
      * Get id
      *
      * @return int
@@ -151,7 +162,15 @@ class User implements UserInterface
      */
     public function getRoles()
     {
-        return ['ROLE_USER'];
+        $stringRoles = [];
+
+        foreach ($this->roles as $role)
+        {
+            /** @var $role Role */
+            $stringRoles[] = $role->getRole();
+        }
+
+        return $stringRoles;
     }
 
     /**
@@ -193,6 +212,17 @@ class User implements UserInterface
     }
 
     /**
+     * @param \SoftUniBlogBundle\Entity\Role $role
+     *
+     * @return User
+     */
+    public function addRole(Role $role)
+    {
+        $this->roles[] = $role;
+
+        return $this;
+    }
+    /**
      * @return \Doctrine\Common\Collections\Collection
      */
     public function getArticles()
@@ -214,6 +244,7 @@ class User implements UserInterface
     public function __construct()
     {
         $this->articles = new ArrayCollection();
+        $this->roles = new ArrayCollection();
     }
 }
 
