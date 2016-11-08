@@ -57,7 +57,6 @@ class UserController extends Controller
     }
 
 
-
     /**
      * @Security("is_granted('IS_AUTHENTICATED_FULLY')")
      * @Route("/profile", name="user_profile")
