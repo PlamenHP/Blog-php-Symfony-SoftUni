@@ -246,5 +246,22 @@ class User implements UserInterface
         $this->articles = new ArrayCollection();
         $this->roles = new ArrayCollection();
     }
+
+    /**
+     * @param Article $article
+     * @return bool
+     */
+    public function isAuthor(Article $article)
+    {
+        return $article->getAuthorId() == $this->getId();
+    }
+
+    /**
+     * @return bool
+     */
+    public function isAdmin()
+    {
+        return in_array("ROLE_ADMIN", $this->getRoles());
+    }
 }
 
