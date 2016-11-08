@@ -2,6 +2,7 @@
 
 namespace SoftUniBlogBundle\Entity;
 
+use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\ORM\Mapping as ORM;
 use Symfony\Component\Security\Core\Role\RoleInterface;
 
@@ -77,6 +78,17 @@ class Role implements  RoleInterface
     public function getRole()
     {
        return $this->getName();
+    }
+
+    /**
+     * @var ArrayCollection
+     * ORM\ManyToMany(targetEntity="SoftUniBlogBundle\Entity\User", mappedBy="roles")
+     */
+    private $users;
+
+    public function __construct()
+    {
+        $this->users = new ArrayCollection();
     }
 }
 
