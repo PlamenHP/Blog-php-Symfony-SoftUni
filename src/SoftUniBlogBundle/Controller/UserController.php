@@ -8,6 +8,7 @@ use Sensio\Bundle\FrameworkExtraBundle\Configuration\Security;
 use SoftUniBlogBundle\Entity\User;
 use SoftUniBlogBundle\Form\UserType;
 use SoftUniBlogBundle\Repository\UserRepository;
+use SoftUniBlogBundle\Entity\Role;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\Request;
 
@@ -34,6 +35,10 @@ class UserController extends Controller
                 ->encodePassword($user, $user->getPassword());
             $user->setPassword($password);
 
+
+            $roleRepository = $this->getDoctrine()->getRepository(Role::class);
+            $userRole = $roleRepository->findOneBy(['name'=> 'ROLE_USER']);
+            $user->addRole($userRole);
             // 4) save the User!
             $em = $this->getDoctrine()->getManager();
             $em->persist($user);
