@@ -26,4 +26,16 @@ class UsersController extends Controller
 
         return $this->render('admin/user/list.html.twig', ['users' => $users]);
     }
+
+    /**
+     * @Route("/edit/{id}", name="admin_user_edit")
+     *
+     * @param $id
+     * @param Request $request
+     * @return \Symfony\component\HttpFoundation\Response
+     */
+    public function editUser($id, Request $request)
+    {
+        
+    }
 }
