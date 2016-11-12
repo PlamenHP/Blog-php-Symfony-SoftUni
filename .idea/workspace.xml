@@ -48,33 +48,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="delete.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Resources/views/article/delete.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Role.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SoftUniBlogBundle/Entity/Role.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1173">
-              <caret line="78" column="5" selection-start-line="78" selection-start-column="5" selection-end-line="78" selection-end-column="5" />
-              <folding>
-                <element signature="e#44#92#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="User.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SoftUniBlogBundle/Entity/User.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="658">
-              <caret line="263" column="55" selection-start-line="263" selection-start-column="55" selection-end-line="263" selection-end-column="55" />
+            <state relative-caret-position="395">
+              <caret line="168" column="56" selection-start-line="168" selection-start-column="56" selection-end-line="168" selection-end-column="56" />
               <folding>
                 <element signature="e#1444#1495#0#PHP" expanded="false" />
                 <element signature="e#1567#1657#0#PHP" expanded="false" />
@@ -90,12 +68,12 @@
                 <element signature="e#2479#2539#0#PHP" expanded="false" />
                 <element signature="e#2544#2617#0#PHP" expanded="false" />
                 <element signature="e#2623#3032#0#PHP" expanded="false" />
-                <element signature="e#3281#3489#0#PHP" expanded="false" />
-                <element signature="e#3494#3552#0#PHP" expanded="false" />
-                <element signature="e#3558#3670#0#PHP" expanded="false" />
-                <element signature="e#3751#3947#0#PHP" expanded="false" />
-                <element signature="e#3952#4052#0#PHP" expanded="false" />
-                <marker date="1478631832046" expanded="false" signature="1523:1561" ph="{...}" />
+                <element signature="e#3300#3508#0#PHP" expanded="false" />
+                <element signature="e#3513#3571#0#PHP" expanded="false" />
+                <element signature="e#3577#3689#0#PHP" expanded="false" />
+                <element signature="e#3770#3966#0#PHP" expanded="false" />
+                <element signature="e#3971#4071#0#PHP" expanded="false" />
+                <marker date="1478951692910" expanded="false" signature="1523:1561" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -126,12 +104,35 @@
       <file leaf-file-name="UsersController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/SoftUniBlogBundle/Controller/Admin/UsersController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="38" column="8" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
+            <state relative-caret-position="599">
+              <caret line="77" column="0" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
               <folding>
                 <element signature="e#54#113#0#PHP" expanded="true" />
-                <element signature="e#665#692#0#PHP" expanded="true" />
+                <element signature="e#741#768#0#PHP" expanded="true" />
+                <element signature="e#2312#2339#0#PHP" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="edit.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Resources/views/admin/user/edit.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="650">
+              <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+              <folding>
+                <marker date="1478948279254" expanded="true" signature="271:2617" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ArticleType.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/SoftUniBlogBundle/Form/ArticleType.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="20" column="54" selection-start-line="20" selection-start-column="54" selection-end-line="20" selection-end-column="54" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -139,8 +140,8 @@
       <file leaf-file-name="UserEditType.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SoftUniBlogBundle/Form/UserEditType.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+            <state relative-caret-position="272">
+              <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
               <folding>
                 <element signature="e#42#82#0#PHP" expanded="true" />
               </folding>
@@ -151,10 +152,15 @@
       <file leaf-file-name="list.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Resources/views/admin/user/list.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+            <state relative-caret-position="578">
+              <caret line="34" column="10" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="10" />
               <folding>
                 <element signature="e#12#26#0#Twig" expanded="true" />
+                <marker date="1478948831510" expanded="true" signature="115:1219" ph="..." />
+                <marker date="1478948831510" expanded="true" signature="176:1204" ph="..." />
+                <marker date="1478948831510" expanded="true" signature="241:1185" ph="..." />
+                <marker date="1478948831510" expanded="true" signature="535:1160" ph="..." />
+                <marker date="1478948831510" expanded="true" signature="881:1068" ph="..." />
               </folding>
             </state>
           </provider>
@@ -203,13 +209,14 @@
         <option value="$PROJECT_DIR$/app/Resources/views/article/delete.html.twig" />
         <option value="$PROJECT_DIR$/src/SoftUniBlogBundle/Entity/Role.php" />
         <option value="$PROJECT_DIR$/src/SoftUniBlogBundle/Controller/UserController.php" />
-        <option value="$PROJECT_DIR$/src/SoftUniBlogBundle/Entity/User.php" />
         <option value="$PROJECT_DIR$/src/SoftUniBlogBundle/Controller/ArticleController.php" />
         <option value="$PROJECT_DIR$/app/Resources/views/article/article.html.twig" />
         <option value="$PROJECT_DIR$/src/SoftUniBlogBundle/Controller/Admin/AdminController.php" />
-        <option value="$PROJECT_DIR$/app/Resources/views/admin/user/list.html.twig" />
         <option value="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/views/admin/user/edit.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/views/admin/user/list.html.twig" />
         <option value="$PROJECT_DIR$/src/SoftUniBlogBundle/Form/UserEditType.php" />
+        <option value="$PROJECT_DIR$/src/SoftUniBlogBundle/Entity/User.php" />
         <option value="$PROJECT_DIR$/src/SoftUniBlogBundle/Controller/Admin/UsersController.php" />
       </list>
     </option>
@@ -1059,12 +1066,12 @@
       <workItem from="1477900035607" duration="196000" />
       <workItem from="1477900309159" duration="466000" />
       <workItem from="1478391573888" duration="13033000" />
-      <workItem from="1478429408069" duration="17227000" />
+      <workItem from="1478429408069" duration="23948000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57183000" />
+    <option name="totallyTimeSpent" value="63904000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="916" extended-state="6" />
@@ -1081,7 +1088,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4500632" sideWeight="0.49625" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.106875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.186875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1118,7 +1125,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/js/main.js" />
     <entry file="file://$PROJECT_DIR$/web/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -1277,16 +1283,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SoftUniBlogBundle/Form/ArticleType.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="20" column="54" selection-start-line="20" selection-start-column="54" selection-end-line="20" selection-end-column="54" />
-          <folding>
-            <element signature="e#42#98#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/SoftUniBlogBundle/Entity/Article.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -1349,35 +1345,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SoftUniBlogBundle/Entity/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="658">
-          <caret line="263" column="55" selection-start-line="263" selection-start-column="55" selection-end-line="263" selection-end-column="55" />
-          <folding>
-            <element signature="e#1444#1495#0#PHP" expanded="false" />
-            <element signature="e#1567#1657#0#PHP" expanded="false" />
-            <element signature="e#1662#1760#0#PHP" expanded="false" />
-            <element signature="e#1766#1823#0#PHP" expanded="false" />
-            <element signature="e#1828#1895#0#PHP" expanded="false" />
-            <element signature="e#1901#1997#0#PHP" expanded="false" />
-            <element signature="e#2002#2112#0#PHP" expanded="false" />
-            <element signature="e#2118#2178#0#PHP" expanded="false" />
-            <element signature="e#2183#2256#0#PHP" expanded="false" />
-            <element signature="e#2262#2358#0#PHP" expanded="false" />
-            <element signature="e#2363#2473#0#PHP" expanded="false" />
-            <element signature="e#2479#2539#0#PHP" expanded="false" />
-            <element signature="e#2544#2617#0#PHP" expanded="false" />
-            <element signature="e#2623#3032#0#PHP" expanded="false" />
-            <element signature="e#3281#3489#0#PHP" expanded="false" />
-            <element signature="e#3494#3552#0#PHP" expanded="false" />
-            <element signature="e#3558#3670#0#PHP" expanded="false" />
-            <element signature="e#3751#3947#0#PHP" expanded="false" />
-            <element signature="e#3952#4052#0#PHP" expanded="false" />
-            <marker date="1478631832046" expanded="false" signature="1523:1561" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/SoftUniBlogBundle/Controller/ArticleController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="488">
@@ -1395,16 +1362,6 @@
         <state relative-caret-position="289">
           <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/admin/user/list.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding>
-            <element signature="e#12#26#0#Twig" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1429,23 +1386,86 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/SoftUniBlogBundle/Form/ArticleType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="20" column="54" selection-start-line="20" selection-start-column="54" selection-end-line="20" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/admin/user/edit.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+          <folding>
+            <marker date="1478948279254" expanded="true" signature="271:2617" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/admin/user/list.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" column="10" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="10" />
+          <folding>
+            <element signature="e#12#26#0#Twig" expanded="true" />
+            <marker date="1478948831510" expanded="true" signature="115:1219" ph="..." />
+            <marker date="1478948831510" expanded="true" signature="176:1204" ph="..." />
+            <marker date="1478948831510" expanded="true" signature="241:1185" ph="..." />
+            <marker date="1478948831510" expanded="true" signature="535:1160" ph="..." />
+            <marker date="1478948831510" expanded="true" signature="881:1068" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/SoftUniBlogBundle/Form/UserEditType.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+        <state relative-caret-position="272">
+          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
           <folding>
             <element signature="e#42#82#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/SoftUniBlogBundle/Entity/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="168" column="56" selection-start-line="168" selection-start-column="56" selection-end-line="168" selection-end-column="56" />
+          <folding>
+            <element signature="e#1444#1495#0#PHP" expanded="false" />
+            <element signature="e#1567#1657#0#PHP" expanded="false" />
+            <element signature="e#1662#1760#0#PHP" expanded="false" />
+            <element signature="e#1766#1823#0#PHP" expanded="false" />
+            <element signature="e#1828#1895#0#PHP" expanded="false" />
+            <element signature="e#1901#1997#0#PHP" expanded="false" />
+            <element signature="e#2002#2112#0#PHP" expanded="false" />
+            <element signature="e#2118#2178#0#PHP" expanded="false" />
+            <element signature="e#2183#2256#0#PHP" expanded="false" />
+            <element signature="e#2262#2358#0#PHP" expanded="false" />
+            <element signature="e#2363#2473#0#PHP" expanded="false" />
+            <element signature="e#2479#2539#0#PHP" expanded="false" />
+            <element signature="e#2544#2617#0#PHP" expanded="false" />
+            <element signature="e#2623#3032#0#PHP" expanded="false" />
+            <element signature="e#3300#3508#0#PHP" expanded="false" />
+            <element signature="e#3513#3571#0#PHP" expanded="false" />
+            <element signature="e#3577#3689#0#PHP" expanded="false" />
+            <element signature="e#3770#3966#0#PHP" expanded="false" />
+            <element signature="e#3971#4071#0#PHP" expanded="false" />
+            <marker date="1478951692910" expanded="false" signature="1523:1561" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/SoftUniBlogBundle/Controller/Admin/UsersController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="38" column="8" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
+        <state relative-caret-position="599">
+          <caret line="77" column="0" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
           <folding>
             <element signature="e#54#113#0#PHP" expanded="true" />
-            <element signature="e#665#692#0#PHP" expanded="true" />
+            <element signature="e#741#768#0#PHP" expanded="true" />
+            <element signature="e#2312#2339#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
