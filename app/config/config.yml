@@ -69,6 +69,9 @@ doctrine:
         user:     "%database_user%"
         password: "%database_password%"
         charset:  UTF8
+        default_table_options:
+          charset: utf8
+          collate: utf8_unicode_ci
 
     orm:
         auto_generate_proxy_classes: "%kernel.debug%"

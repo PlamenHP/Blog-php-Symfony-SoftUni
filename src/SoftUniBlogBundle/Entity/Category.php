@@ -73,7 +73,7 @@ class Category
     /**
      * @return ArrayCollection
      */
-    public function getArticles(): ArrayCollection
+    public function getArticles()
     {
         return $this->articles;
     }
