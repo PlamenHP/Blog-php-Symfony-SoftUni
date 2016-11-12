@@ -81,4 +81,38 @@ class UsersController extends Controller
 
         return $this->render('admin/user/edit.html.twig', ['user' => $user, 'form' => $form->createView()]);
     }
+
+    /**
+     * @Route("/delete/{id}", name="admin_user_delete")
+     *
+     * @param $id
+     * @param Request $request
+     * @return \Symfony\Component\HttpFoundation\Response
+     */
+    public function deleteUser($id, Request $request)
+    {
+        $user = $this->getDoctrine()->getRepository(User::class)->find($id);
+
+        if ($user === null) {
+            return $this->redirectToRoute("admin_users");
+        }
+
+        $form = $this->createForm(UserEditType::class, $user);
+        $form->handleRequest($request);
+
+        if ($form->isSubmitted() && $form->isValid()) {
+            $em = $this->getDoctrine()->getManager();
+
+            foreach ( $user->getArticles() as $article){
+                $em->remove($article);
+            }
+
+            $em->remove($user);
+            $em->flush();
+
+            return $this->redirectToRoute('admin_users');
+        }
+
+        return $this->render('admin/user/delete.html.twig', ['user' => $user, 'form' => $form->createView()]);
+    }
 }
