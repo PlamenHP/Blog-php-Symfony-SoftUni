@@ -2,8 +2,9 @@
 
 {% block main %}
     <div class="container body-content">
+        <h1>Searching by tag - {{ tag.name }}</h1>
         <div class="row">
-            {% for article in articles %}
+            {% for article in tag.articles %}
                 <div class="col-md-6">
                     <article>
                         <header>
@@ -19,7 +20,6 @@
                                    href="{{ path('articles_with_tag', {'name': tag.name}) }}">{{ tag.name }}</a>
                             {% endfor %}
                         </p>
-
                         <small class="author">
                             {{ article.author }}
                         </small>

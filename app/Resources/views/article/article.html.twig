@@ -18,6 +18,12 @@
                     </small>
 
                     <footer>
+                        <div class="pull-left">
+                            {% for tag in article.tags  %}
+                                <a class="btn btn-default btn-xs" href="{{ path('articles_with_tag', {'name':tag.name}) }}">{{ tag.name }}</a>
+                            {% endfor %}
+                        </div>
+
                         <div class="pull-right">
                             {% if app.getUser() and (app.getUser().isAuthor(article) or app.getUser().isAdmin()) %}
                             <a class="btn btn-success btn-xs" href="{{ path('article_edit',{'id':article.id}) }}">Edit</a>
